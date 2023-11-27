@@ -1,0 +1,194 @@
+.main-calcimc{
+    width: 100%;
+    height: 90vh;
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #e9ecf0;
+
+}
+
+.main-calcimc-titulo{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.main-calcimc-titulo::before{
+    content: '';
+    width: 28.2%;
+    height: 50%;
+    right: 36%;
+    position: absolute;
+    background-color: rgba(1, 17, 1, 0.6);
+
+}
+
+.main-calcimc-titulo > h1{
+    font-size: 2.5rem;
+    position: absolute;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.main-calc-container{
+    width: 100%;
+    height: 80%;
+   display: flex;
+}
+
+.main-calccontainer-esquerdo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-calccontainer-esquerdo-dados{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-calccontainer-esquerdo-dados > svg {
+    width: 80%;
+}
+.main-calccontainer-esquerdo-dados-img{
+    width: 30%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.main-calccontainer-esquerdo-dados-img > img{
+    width: 80%;
+}
+
+.main-calccontainer-esquerdo-dados-texto{
+    height: 80%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main-calccontainer-esquerdo-dados-texto > p{
+    height: 12%;
+    font-size: 1.2rem;
+    margin-bottom: 2%;
+    background-color: #8cc53e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.main-calccontainer-esquerdo-dados-texto > p > span{
+
+    font-weight: 600;
+
+}
+
+.main-calccontainer-direito{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-calccontainer-direito-formulario{
+    width: 75%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.main-calccontainer-direito-formulario-resultado{
+    width: 100%;
+    height: 25%;
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-calccontainer-direito-formulario-input{
+    width: 100%;
+    height: 67%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.main-calccontainer-direito-formulario-dados{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.main-calccontainer-direito-formulario-dados > p{
+    height: 34%;
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.main-calccontainer-direito-formulario-dados > input{
+    width: 94%;
+    height: 66%;
+    outline: none;
+    border: none;
+    background-color: #D9D9D9;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.main-calccontainer-direito-btn{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-calccontainer-direito-btn > button{
+    width: 30%;
+    height: 40%;
+    background-color: #8cc53e;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+
+.main-calccontainer-direito-btn > button:hover{
+    background-color: #8cc53e;
+}
+
+.lista {
+    list-style: circle;
+}

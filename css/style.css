@@ -21,6 +21,7 @@
 .main_header_nav_item  span   { width:25px; height:25px; line-height:28px; text-align:center; font-size:1.2em; float:right; display:block; }
 
 }
+
 .section-chamada  { padding:0em 0; background-color:#fff; }
 .section-chamada .content { width:100%; padding:0; margin:0; }
 .topoPag                 { width:100%; height:100%; background-color:transparent; float:left; position:relative; overflow:hidden; transition:all 500ms; -moz-transition:all 500ms; -ms-transition:all 500ms; -o-transition:all 500ms; -webkit-transition:all 500ms;}
@@ -46,160 +47,6 @@
 .galeria .foto  { width: 100%; float: left; display: block; margin-bottom: 5%; border: 2px #e3f0d3 solid; position: relative; overflow: hidden; border-radius: 3px; }
 .foto:hover .image-link  { bottom:20%; transition: all .3s ease-in-out; opacity:1; } 
 .foto:hover .mascara     { background: rgba(141, 197, 63, 0.65); }
-.section-agendamento          { background-color:#efefef; }
-.section-agendamento .content { float:left; padding: 0.5em 0 0em 0; }
-.agendamento      { width:100%; float:left; margin-bottom:20px; }
-.agendamento i    { width:100%; float:left; color:#676767; font-size:3em; margin-bottom: 20px; text-align:center; }
-.agendamento p    { width:100%; float:left; color:#0e903e; font-size:1.3em; margin-bottom: 20px; text-align:center; }
-.agendamento span { width:100%; float:left; color:#676767; font-size:0.9em; text-align:center; }
-.section-contato          { background-color:#ffffff; }
-.section-contato .content { float:left; padding: 0.5em 0 0em 0; }
-.coluna { width:100%; float:left; margin-bottom:30px; }
-.formulario       { width:100%; height:100%; float:left; }
-.formulario label { width:100%; float:left; margin-bottom:15px; }
-.formulario label span { font-size:1em; color: #17badf; float:left; margin-bottom:5px; font-family:'Lato'; }
-.formulario .campo     { font-size:1.2em; color:#7b7979; font-family:'Lato'; outline:none; border:1px #dee5ed solid; border-radius:8px; padding:0.6em; transition:.5s; }
-.formulario .campo:focus { border: 1px rgb(18, 146, 65) solid; color: #129241; }
-.formulario .btn-enviar  { width:160px; float:left; margin-top:5px; background-color:#8dc53f; color:#ffffff; border:none; border-radius:8px; cursor:pointer; padding:0.5em 0em; font-size:1.5em; font-family:'Lato'; transition: 0.2s; }
-.formulario .btn-enviar:hover { background-color:#129241; }
-.info     { width:100%; float:left; display:block; margin-bottom:20px; }
-.info p   { width:100%; margin-bottom:5px; font-size: 0.79em; color:#7b7979; font-family:'Lato'; }
-.info p i { margin-right:5px; }
-.footer-ondulado-top {
-    
-  float: left;
-  margin-bottom: -1px;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-
-}
-
-.footer-ondulado-top svg {
- 
-  float: left;
-  margin-bottom: -1px;
-  display: block;
-  width: calc(148% + 1.3px);
-  height: 75px;
-
-}
-
-.footer-ondulado-top .shape-fill {
-  
-  fill: #8DC53F;
-
-}
-
-.main_footer   { 
-
-    background-color:#8dc53f;
-    color:#fff;
-    font-size:1em;
-
-  }
-
-.main_footer .content { float:left; width:80%; margin:0 10%; padding: 5em 0; }
-.container { float:left; width:100%; }
-.colfooter { 
- 
-  width:100%; 
-  height:auto; 
-  float:left; 
-  margin-bottom:2em;
-
-}
-
-.colfooter ul        { width:100%; float:left; }
-.colfooter ul li     { padding:0.2em 0em; }
-.colfooter ul li a   { text-decoration:none; color:#ffffff; font-size:1em; }
-.colfooter ul li a i { font-size:0.5em; }
-.colfooter ul li a:hover { text-decoration:underline; }
-
-.colfooter .titleFooter   { 
-  
-  font-family: 'Lato', sans-serif; 
-  font-size:1.3em; 
-  color:#ffffff; 
-  padding-bottom: 0.5em; 
-  margin-bottom:0.5em; 
-  border-bottom:1px #a7db5e solid;
-
-}
-
-.colfooter p  { 
-
-  font-family: 'Lato', sans-serif; 
-  color:#ffffff; 
-  font-size:1em; 
-  height:25px; 
-
-} 
-
-.box-social { 
-
-  flex-wrap:wrap; 
-  display:flex; 
-  justify-content:left; 
-  gap:10px; 
-
-}
-
-.btn-social {
-  width: 50px;
-  height: 50px;
-  border-radius: 100%;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  outline: none;
-  text-decoration: none;
-  background: #ffffff;
-  text-align: center;
-}
-
-.btn-social::after {
-  content: "";
-  position: absolute;
-  top: -1px;
-  left: 50%;
-  display: block;
-  width: 0;
-  height: 0;
-  border-radius: 100%;
-  transition: 0.4s;
-}
-
-.btn-social:hover { color:#ffffff; }
-.btn-social:hover::after {
-  
-  width: calc(100% + 2px);
-  height: calc(100% + 2px);
-  margin-left: calc(-50% - 1px);
-}
-
-.btn-social i {
-  position: relative;
-  z-index: 1;
-  transition: 0.4s;
-  font-size: 20px;
-  line-height: 35px;
-  height: 30px;
-}
-
-.btn-hover        { color: #8dc53f; }
-.btn-hover::after { background: #129241; }
-
-.main_footer_copy   { background-color:#7bb130; width:100%; float:left; text-align:center; padding:1.5em 0em; }
-.main_footer_copy p { font-family: 'Lato', sans-serif; font-size:1em; color:#e1e0e0; height:20px; }
-.main_footer_copy .m-b-footer   { margin-bottom:0.5em; }
-.main_footer_copy .by   { font-size:0.96em; }
-.main_footer_copy .by a       { color:#fff; text-decoration:none; }
-.main_footer_copy .by a:hover { text-decoration:underline; }
-.main_footer_copy .by i { font-size:0.96em; margin-right:3px; color:#e82626; }
 
 @media (min-width:30em){
 
@@ -223,29 +70,13 @@
   .galeria .foto { width:48%; margin-right:4%; margin-bottom:4%;}
   .galeria .foto:nth-of-type(2n+0) { margin-right:0; }
 
-  .agendamento { width:48%; margin-right:4% }
-  .agendamento:nth-of-type(2n+0) { margin-right:0; }
-
-
-  .section-serviços .content     { float:left; padding: 1em 0 1em 0; }
-  .section-galeria .content      { float:left; padding: 1em 0 1em 0; }
-  .section-agendamento .content  { float:left; padding: 3em 0 3em 0; }
-  
-  .section-contato .content    { float:left; padding: 1em 0 1em 0; }
   .info   { margin-bottom:20px; }
   .info p { font-size: 1.1em; }
   .coluna { width:48%; float:left; margin-right:4%; margin-bottom:0; }
   .coluna:nth-of-type(2n+0) { margin-right:0; }
 
-
   .artigos-especialidades { width:32%; margin-right:2%; }
   .artigos-especialidades:nth-of-type(3n+0) { margin-right:0; }
-
-
-  .colfooter  { width:30%; margin-right:5%; margin-bottom:0; }
-  .colfooter:nth-of-type(3n+0){ margin-right:0; border-right:0;}
-
-  .footer-ondulado-top svg { height: 178px; }
 
 } 
 
@@ -279,20 +110,10 @@
   .galeria .foto { width:23.5%; margin-right:2%; margin-bottom:2%; }
   .galeria .foto:nth-of-type(4n+0) { margin-right:0; }
 
-  .agendamento:nth-of-type(2n+0),
-  .agendamento { width:23.5%; margin-right:2% }
-  .agendamento:nth-of-type(4n+0) { margin-right:0; }
-
   .artigos-especialidades .desc p   { min-height:120px; }
 
   .topoPag .centraliza h1 { letter-spacing:13px; font-size:5.5em; margin-top:50px; }
   .topoPag .centraliza p  { letter-spacing:13px; }
-
-  .footer               { padding: 150px 50px 50px 150px; }
-  .footer .Copyright    { font-size: 16px; }
-  
-  .footer .formulario .campo { width: 100%; float:left; }
-  .footer .formulario .btn   { padding: 10px 35px; }
 
 }
 
